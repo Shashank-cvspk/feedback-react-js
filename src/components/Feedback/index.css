@@ -1,0 +1,31 @@
+/* Write your CSS code here. */
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: auto;
+}
+.List {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+}
+.list-items {
+  text-align: center;
+  margin: auto;
+}
+.image {
+  height: 70px;
+  width: 70px;
+}
+.feedback-summary-container {
+  text-align: center;
+}
